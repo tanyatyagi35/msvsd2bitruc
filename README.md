@@ -15,9 +15,9 @@ Magic is an open-source VLSI layout tool. Its installation process includes foll
 
 $ git clone git://opencircuitdesign.com/magic
 $ cd magic
-// Install M4 preprocessor
+// Install M4 preprocessor//
 $ sudo apt-get install m4       
-// Install tcsh shell
+// Install tcsh shell//
 $ sudo apt-get install tcsh   
 // Install csh shell
 $ sudo apt-get install csh         
