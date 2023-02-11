@@ -12,10 +12,10 @@ $ sudo apt-get install git
 
 # STEP2: FOR MAGIC INSTALLATION
 Magic is an open-source VLSI layout tool. Its installation process includes following steps:
-
+```
 $ git clone git://opencircuitdesign.com/magic
 $ cd magic
-// Install M4 preprocessor//
+// Install M4 preprocessor
 $ sudo apt-get install m4       
 // Install tcsh shell//
 $ sudo apt-get install tcsh   
@@ -34,7 +34,7 @@ $ sudo apt-get install libncurses-dev
 $ ./configure
 $ make
 $ sudo make install
-
+```
 More info can be found at http://opencircuitdesign.com/magic/index.html
 
 
