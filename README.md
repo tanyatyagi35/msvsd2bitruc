@@ -17,7 +17,7 @@ $ git clone git://opencircuitdesign.com/magic
 $ cd magic
 // Install M4 preprocessor
 $ sudo apt-get install m4       
-// Install tcsh shell//
+// Install tcsh shell
 $ sudo apt-get install tcsh   
 // Install csh shell
 $ sudo apt-get install csh         
@@ -40,19 +40,19 @@ More info can be found at http://opencircuitdesign.com/magic/index.html
 
 # STEP3: FOR NETGEN INSTALLATION
 Netgen is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic". Its installation process includes following steps:
-
+```
 $  git clone git://opencircuitdesign.com/netgen
 $  cd netgen
 $  ./configure
 $  make
 $  sudo make install
-
+```
 More info can be found at http://opencircuitdesign.com/netgen/index.html
 
 
 # STEP4: FOR XSCHEM INSTALLATION
 Xschem is a schematic capture program. Its installation process includes following steps:
-
+```
 $  git clone https://github.com/StefanSchippers/xschem.git xschem_src
 $   cd xschem-src
 // Install flex and bison
@@ -66,13 +66,13 @@ $  sudo apt-get -y install xcb
 $  ./configure
 $  make
 $  sudo make install
-
+```
 More info can be found at http://repo.hu/projects/xschem/index.html
 
 
 # STEP5: FOR NGSPICE INSTALLATION
 ngspice is the open-source spice simulator for electric and electronic circuits. Download ngspice-39 tarball ngspice-39.tar.gzfrom https://ngspice.sourceforge.io/download.html into the work directory and then its installation process includes following steps:
-
+```
 $  tar -xzvf ngspice-39.tar.gz
 $  mkdir release
 $  cd release 
@@ -94,13 +94,13 @@ $  sudo make install
 // In order to view the simulation graphs of ngspice, xterm is required and can be installed using:
 $  sudo apt-get update
 $  sudo apt-get install xterm
-
+```
 More info can be found at https://ngspice.sourceforge.io/index.html
 
 
 # STEP6: FOR OPEN_PDKs INSTALLATION
 Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description https://github.com/google/skywater-pdk. Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc. Its installation process includes following steps:
-
+```
 // Install setup-tools
 $  sudo apt-get -y install python3-setuptools
 $  git clone git://opencircuitdesign.com/open_pdks
@@ -108,7 +108,7 @@ $  cd open_pdks
 $  ./configure --enable-sky130-pdk
 $  make 
 $  sudo make install
-
+```
 
    
 
