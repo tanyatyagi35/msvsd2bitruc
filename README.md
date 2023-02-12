@@ -1,18 +1,20 @@
+VSD Mixed-signal PD Research Program
 # msvsd2bitruc-(2bit_ripple_upcounter_with_555timer_AstableMultivibrator_As_clock_circuit)
-# VSD Mixed-signal PD Research Program
+
 
 # Week0 Tasks:
 
 
-1. Installation of openSource Tools and SKY130 PDKs
+# 1. Installation of openSource Tools and SKY130 PDKs
 
 STEP1: TO START WITH CREATION OF VSD FLOW
 ```
 $ sudo apt-get install git
 ```
-
+```
 STEP2: FOR MAGIC INSTALLATION
 Magic is an open-source VLSI layout tool. Its installation process includes following steps:
+```
 ```
 $ git clone git://opencircuitdesign.com/magic
 $ cd magic
