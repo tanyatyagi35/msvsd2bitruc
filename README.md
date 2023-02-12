@@ -43,6 +43,7 @@ More info can be found at http://opencircuitdesign.com/magic/index.html
 
 
 STEP3: FOR NETGEN INSTALLATION
+
 Netgen is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic". Its installation process includes following steps:
 ```
 $  git clone git://opencircuitdesign.com/netgen
@@ -55,6 +56,7 @@ More info can be found at http://opencircuitdesign.com/netgen/index.html
 
 
 STEP4: FOR XSCHEM INSTALLATION
+
 Xschem is a schematic capture program. Its installation process includes following steps:
 ```
 $  git clone https://github.com/StefanSchippers/xschem.git xschem_src
@@ -75,6 +77,7 @@ More info can be found at http://repo.hu/projects/xschem/index.html
 
 
 STEP5: FOR NGSPICE INSTALLATION
+
 ngspice is the open-source spice simulator for electric and electronic circuits. Download ngspice-39 tarball ngspice-39.tar.gzfrom https://ngspice.sourceforge.io/download.html into the work directory and then its installation process includes following steps:
 ```
 $  tar -xzvf ngspice-39.tar.gz
@@ -103,6 +106,7 @@ More info can be found at https://ngspice.sourceforge.io/index.html
 
 
 STEP6: FOR OPEN_PDKs INSTALLATION
+
 Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description https://github.com/google/skywater-pdk. Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc. Its installation process includes following steps:
 ```
 // Install setup-tools
@@ -115,6 +119,7 @@ $  sudo make install
 ```
    
 STEP7: FOR ALIGN INSTALLATION
+
 ALIGN is an open source automatic layout generator for analog circuits. Its installation process includes following steps:
 ```
 $  git clone https://github.com/ALIGN-analoglayout/ALIGN-public
