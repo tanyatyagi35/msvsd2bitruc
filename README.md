@@ -3,10 +3,10 @@
 
 # Week0 Tasks:
 
-```
-1. Installation of openSource Tools and SKY130 PDKs
 
-STEP1: TO START WITH CREATION OF VSD FLOW
+#1. Installation of openSource Tools and SKY130 PDKs
+
+#STEP1: TO START WITH CREATION OF VSD FLOW
 ```
 $ sudo apt-get install git
 ```
