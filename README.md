@@ -11,10 +11,11 @@ STEP1: TO START WITH CREATION OF VSD FLOW
 ```
 $ sudo apt-get install git
 ```
-```
+
 STEP2: FOR MAGIC INSTALLATION
+
 Magic is an open-source VLSI layout tool. Its installation process includes following steps:
-```
+
 ```
 $ git clone git://opencircuitdesign.com/magic
 $ cd magic
