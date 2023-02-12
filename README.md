@@ -155,15 +155,21 @@ $  git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 Move SKY130 PDK folder to ALIGN-public/pdks. Everytime we start the tool in new terminal, run the following commands.
 
 
-# 2. Verifiying Open PDKs installation
+# 2. Verifiying Open PDKs installation and tools testing
+
+STEP1: Verifiying Open PDKs installation
+
 ![Screenshot from 2023-02-12 01-32-26](https://user-images.githubusercontent.com/30209235/218304616-e17d01e0-b6bd-4b03-b1de-1ecae45a2f52.png)
 
-# 3. Magic Test
+STEP2: Magic Test
+
 ![Screenshot from 2023-02-12 13-46-22](https://user-images.githubusercontent.com/30209235/218304877-48a3ce5d-08ca-4f59-a7e0-7fa7be939edc.png)
 
-# 4. Xschem Test
+STEP3: Xschem Test
+
 ![Screenshot from 2023-02-12 13-47-33](https://user-images.githubusercontent.com/30209235/218304859-2f872e96-284d-4d90-a818-7cf44f417788.png)
 
-# 5. Netgen Test
+STEP4: Netgen Test
+
 ![Screenshot from 2023-02-12 13-48-11](https://user-images.githubusercontent.com/30209235/218304902-89574d4c-8c08-42e8-9d14-35d2d61da3d1.png)
 
