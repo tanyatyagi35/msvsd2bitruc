@@ -4,12 +4,13 @@
 # Week0 Tasks:
 
 
-#1. Installation of openSource Tools and SKY130 PDKs
+1. Installation of openSource Tools and SKY130 PDKs
 
-#STEP1: TO START WITH CREATION OF VSD FLOW
+STEP1: TO START WITH CREATION OF VSD FLOW
 ```
 $ sudo apt-get install git
 ```
+
 STEP2: FOR MAGIC INSTALLATION
 Magic is an open-source VLSI layout tool. Its installation process includes following steps:
 ```
@@ -109,5 +110,39 @@ $  ./configure --enable-sky130-pdk
 $  make 
 $  sudo make install
 ```
-```   
+   
+STEP7: FOR ALIGN INSTALLATION
+ALIGN is an open source automatic layout generator for analog circuits. Its installation process includes following steps:
+```
+$  git clone https://github.com/ALIGN-analoglayout/ALIGN-public
+$  cd ALIGN-public
+// Install virtual environment for python
+$  sudo apt -y install python3.8-venv
+// Install the latest pip
+$  sudo apt-get -y install python3-pip
+// Create python virtual envronment
+$  python3 -m venv general
+$  source general/bin/activate
+$  python3 -m pip install pip --upgrade
+$  pip install align
+$  pip install pandas
+$  pip install scipy
+$  pip install nltk
+$  pip install gensim
+$  pip install setuptools wheel pybind11 scikit-build cmake ninja
+// Install ALIGN as a user
+$  pip install -v .
+// Install ALIGN  as a developer
+$  pip install -e .
+$  pip install -v -e .[test] --no-build-isolation
+$  pip install wheel setuptools pip --upgrade
+$  pip3 install wheel setuptools pip --upgrade
+$  pip install -v --no-build-isolation -e . --no-deps --install-option='-DBUILD_TESTING=ON'
+```
+
+For making ALIGN Portable to Sky130 tehnology, clone the following Repository inside ALIGN-public directory
+```
+$  git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
+```
+Move SKY130 PDK folder to ALIGN-public/pdks. Everytime we start the tool in new terminal, run the following commands.
 
