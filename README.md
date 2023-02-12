@@ -173,3 +173,35 @@ STEP4: Netgen Test
 
 ![Screenshot from 2023-02-12 13-48-11](https://user-images.githubusercontent.com/30209235/218304902-89574d4c-8c08-42e8-9d14-35d2d61da3d1.png)
 
+# 3.1 Inverter Schematic creation using xschem
+
+![Screenshot from 2023-02-12 16-23-38](https://user-images.githubusercontent.com/30209235/218313865-8234a393-f0ee-4398-9746-3f16e21b19e6.png)
+
+# 3.2 Inverter Symbol creation using xschem
+
+![Screenshot from 2023-02-12 16-24-32](https://user-images.githubusercontent.com/30209235/218313945-4c11c9e9-bbe7-4f37-9a41-bd7821801cf0.png)
+
+# 3.3 Inverter Testbench creation using xschem
+
+![Screenshot from 2023-02-12 18-16-06 (1)](https://user-images.githubusercontent.com/30209235/218314052-e721e51a-d3d4-45fd-a029-ea1ca6d20247.png)
+
+# 3.4 inverter_tb.spice Netlist
+
+![Screenshot from 2023-02-12 18-15-51](https://user-images.githubusercontent.com/30209235/218314306-661d197e-089b-49ca-a639-be742fb6d90d.png)
+
+![Screenshot from 2023-02-12 18-15-57](https://user-images.githubusercontent.com/30209235/218314265-29473fe6-ec48-4f58-9080-129737a242f9.png)
+
+# 3.5 Simulating netlist using Ngspice
+
+![Screenshot from 2023-02-12 18-18-42 (1)](https://user-images.githubusercontent.com/30209235/218314432-81a4fdef-6228-48b7-8b16-7ade29e7edc1.png)
+
+# 3.6 Waveform obatined
+
+![Screenshot from 2023-02-12 18-18-29](https://user-images.githubusercontent.com/30209235/218314460-97854039-80fb-46f5-a9ea-f615417cb66f.png)
+
+
+
+
+
+
+
